@@ -13,5 +13,6 @@ function main(){
     const show = document.getElementById("show-me");
     show.style.display = "block";
     const inputName = document.getElementById("name").value;
-    console.log(inputName);
+    const heading = document.querySelector("h1");
+    heading.innerText = `Welcome ${inputName}`;
 }
